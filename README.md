@@ -16,7 +16,7 @@ Exercise 10: JSON Nested (json_nested.js) — Робота зі складним
 Кожне рішення можна запустити локально, вказавши порт як аргумент:
 node json_calc.js 3000
 
-Перевірка за допомогою curl
+Перевірка за допомогою curl:
 curl -X POST http://localhost:3000/json-calc \
      -H "Content-Type: application/json" \
      -d '{"a": 10, "b": 5, "operation": "multiply"}'
